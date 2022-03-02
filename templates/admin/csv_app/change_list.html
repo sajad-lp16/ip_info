@@ -1,0 +1,8 @@
+{% extends "admin/change_list.html" %}
+{% block content %}
+    {{ block.super }}
+    <a href="{% url 'export_csv' %}">
+        <input type="button" value="ip logs">
+    </a>
+    <br><br><br>
+{% endblock %}

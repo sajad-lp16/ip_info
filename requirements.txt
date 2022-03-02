@@ -1,0 +1,6 @@
+celery==4.4.7
+Django==2.2.4
+kombu==4.6.11
+python-decouple==3.6
+redis==4.1.4
+requests==2.27.1
